@@ -1,0 +1,43 @@
+@import '../../Data/Variables.scss';
+
+.container {
+  padding: 1rem;
+  background-color: $PrimaryBackground;
+  min-height: 100vh;
+
+  .content-wrapper {
+    background-color: $White;
+    padding: 2rem;
+    border-radius: 10px;
+    height: 100%;
+
+    .form-wrapper {
+      background: $White;
+      padding: 20px;
+      box-shadow: 0px 12px 13px -7px rgba(135, 135, 135, 0.75);
+      -webkit-box-shadow: 0px 12px 13px -7px rgba(135, 135, 135, 0.75);
+      -moz-box-shadow: 0px 12px 13px -7px rgba(135, 135, 135, 0.75);
+    }
+
+    :global {
+      h1.ant-typography {
+        font-weight: bold;
+      }
+    }
+
+    .card-content-wrapper {
+      .text-card {
+        color: $TextSecondary;
+        font-size: 0.9rem;
+        margin-bottom: 0;
+      }
+
+      .text-card-value {
+        color: $Black;
+        font-size: 1.2rem;
+        font-weight: 600;
+        margin-bottom: 0;
+      }
+    }
+  }
+}

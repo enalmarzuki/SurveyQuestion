@@ -1,0 +1,21 @@
+.form-container {
+  .form-option-wrapper {
+    display: flex;
+    align-items: flex-end;
+    // justify-content: space-between;
+  }
+
+  :global {
+    .ant-form {
+      &.ant-form-vertical {
+        .ant-form-item {
+          margin-bottom: 0 !important;
+
+          label {
+            font-size: 1rem;
+          }
+        }
+      }
+    }
+  }
+}
